@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const Beers = () => {
+const beerList = () => {
     const [beers, setBeers] = useState([]);
 
     useEffect(() => {
@@ -11,7 +11,7 @@ const Beers = () => {
 
     return (
         <div>
-            <div className="beerList">
+            <div className="everyBeer">
                 {beers.map((beer) => {
                     return (
                         <div className="beerCard" key={beer.id}>

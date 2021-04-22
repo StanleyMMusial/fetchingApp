@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
-import Beers from './componenets/Beers'
+import beerList from './componenets/beerList'
 
 class App extends Component {
   constructor(props) {
@@ -24,8 +24,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>25 Punk Beers</h1>
-          <ol class="all-beers">
+          <h1>Beer List</h1>
+          <ol class="beer-list">
             {this.state.beerList.map((beer, index) => {
               return (
                 <Beers
