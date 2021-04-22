@@ -1,0 +1,44 @@
+body{
+  background-color: #659DBD;
+}
+.App {
+ background-color: #Bc986A;
+}
+
+.beerContainerAll {
+  scroll-snap-align: start;
+  display: flex;
+  margin: 10%;
+  padding-left: 10%;
+}
+
+.beerListContainerAppJs {
+  background-color:#FBEEC1;
+  margin: auto;
+  margin-top: 10vh;
+  height: 75vh;
+  width: 45vw;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.beerContainerSingle {
+  height: 70vh;
+  width: 40vw;
+  display: flex;
+  margin: auto;
+}
+
+.beerImage {
+  height: 50vh;
+  margin: 5%;
+}
+
+.beerInfoContainer {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
